@@ -16,12 +16,12 @@ const NavBar : React.FC<{}> = () => {
                     alignItems="center"
                 >
                     <Grid item>
-                        <Button variant='text'><Typography>BY RUBENS</Typography></Button>
+                        <Button onClick={()=> navigate("/rick-morty-web-mui-react.github.io/")} variant='text'><Typography>BY RUBENS</Typography></Button>
                     </Grid>
 
                     <Grid item>
                         <Stack direction="row" spacing={2}>  
-                          <Button variant="contained" onClick={()=> navigate("/login")} >Login</Button>
+                          <Button variant="contained" onClick={()=> navigate("/rick-morty-web-mui-react.github.io/login")} >Login</Button>
                           <Button variant="outlined">Register</Button>
                         </Stack>
                     </Grid>

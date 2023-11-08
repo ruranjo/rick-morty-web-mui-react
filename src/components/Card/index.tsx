@@ -33,7 +33,7 @@ export const CardComponent: React.FC<CardProps> = ({name,status,species,image,id
         </Typography>
       </CardContent>
         <CardActions>
-            <Button fullWidth variant='contained' size="small" onClick={()=>navigate(`/character/${id}`)}>Learn More</Button>
+            <Button fullWidth variant='contained' size="small" onClick={()=>navigate(`/rick-morty-web-mui-react.github.io/character/${id}`)}>Learn More</Button>
         </CardActions>
     </Card>
   )

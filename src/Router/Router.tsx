@@ -9,11 +9,11 @@ import CharacterPage from '../pages/Character'
 const AppRouter: React.FC<{}> = () => {
   return (
     <Routes>
-        <Route path='/' element={<RouterLayout/>}>
-            <Route path='/' element={<HomePage/>}/>
-            <Route path='/character/:id' element={<CharacterPage/>}/>
+        <Route path='/rick-morty-web-mui-react.github.io/' element={<RouterLayout/>}>
+            <Route path='/rick-morty-web-mui-react.github.io/' element={<HomePage/>}/>
+            <Route path='/rick-morty-web-mui-react.github.io/character/:id' element={<CharacterPage/>}/>
         </Route>
-        <Route path='/login' element={<LoginPage/>}/>
+        <Route path='/rick-morty-web-mui-react.github.io/login' element={<LoginPage/>}/>
     </Routes>
   )
 }
